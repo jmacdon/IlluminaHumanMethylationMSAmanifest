@@ -1,0 +1,21 @@
+Package: IlluminaHumanMethylationMSAmanifest
+Type: Package
+Title: Package for MSA Infinium array compatibility with minfi
+Version: 0.1.0
+Author: c(person("Ev", "Chekalin", role = c("aut", "cre"),
+                     email = "echekalin@illumina.com"),
+              person("Bre",'Barnes', role = "aut",email='bbarnes@illumina.com'),
+              person("Max", "Westphal", role = "ctb", email='mwestphal@illumina.com'))
+Maintainer: Ev Chekalin <echekalin@illumina.com>
+Description: Manifest for Illumina's MSA methylation arrays compatible with minfi
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 4.0.0), minfi
+Imports: utils
+RoxygenNote: 7.3.1
+VignetteBuilder: knitr
+biocViews: AnnotationData, IlluminaChip, Homo_sapiens
+LazyData: yes
+LazyDataCompression: xz
+NeedsCompilation: no
+Packaged: 2024-06-18 21:58:21 UTC; echekalin
