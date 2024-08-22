@@ -1,4 +1,4 @@
-# IlluminaHumanMethylationEPICv2manifest
+# IlluminaHumanMethylationMSAmanifest
 
 ## Install from GitHub or from .tar.gz
 
