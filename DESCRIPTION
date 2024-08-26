@@ -8,7 +8,7 @@ Author: c(person("Ev", "Chekalin", role = c("aut", "cre"),
               person("Max", "Westphal", role = "ctb", email='mwestphal@illumina.com'))
 Maintainer: Ev Chekalin <echekalin@illumina.com>
 Description: Manifest for Illumina's MSA methylation arrays compatible with minfi
-License: Artistic License 2.0 
+License: apache 2.0
 Encoding: UTF-8
 Depends: R (>= 4.0.0), minfi
 Imports: utils
