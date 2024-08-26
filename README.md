@@ -1,4 +1,4 @@
-# IlluminaHumanMethylationMSAmanifest
+# # Workaround to make MSA Infinium DNA methylation array compatible with minfi package
 
 ## Install from GitHub or from .tar.gz
 
