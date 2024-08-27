@@ -1,4 +1,4 @@
-# Workaround to make MSA Infinium DNA methylation array compatible with minfi package
+# package for MSA Infinium DNA Methylation array and minfi compatibility
 
 ## Install from GitHub or from .tar.gz
 
