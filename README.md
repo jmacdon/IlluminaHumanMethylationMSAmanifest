@@ -3,7 +3,7 @@
 
 ```
 library(BiocManager)
-install_github("jmacdon/IlluminaHumanMethylationMSAmanifest")
+BiocManger::install("jmacdon/IlluminaHumanMethylationMSAmanifest")
 
 ```
 
