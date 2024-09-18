@@ -7,11 +7,12 @@ Author: c(person("Ev", "Chekalin", role = c("aut", "cre"),
               person("Bre",'Barnes', role = "aut",email='bbarnes@illumina.com'),
               person("Max", "Westphal", role = "ctb", email='mwestphal@illumina.com'))
 Maintainer: James W. MacDonald <jmacdon@uw.edu>
-Description: Manifest for Illumina's MSA methylation arrays compatible with minfi
-License: apache 2.0
+Description: A manifest package for use with Illumina's MSA methylation arrays, compatible with minfi.
+License: Apache License 2.0
 Encoding: UTF-8
 Depends: R (>= 4.0.0), minfi
 Imports: utils
+Suggests: knitr
 RoxygenNote: 7.3.1
 VignetteBuilder: knitr
 biocViews: AnnotationData, IlluminaChip, Homo_sapiens

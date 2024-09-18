@@ -24,11 +24,11 @@ knitr::opts_chunk$set(
 
 This package provides the manifest for the Illumina Human Methylation
 MSA array, based on the [csv available on their support
-site](https://support.illumina.com/content/dam/illumina-support/documents/downloads/productfiles/infiniummethylationscreening/MSA-48v1-0_20102838_A1.csv)
+site](https://support.illumina.com/content/dam/illumina-support/documents/downloads/productfile/infiniummethylationscreening/MSA-48v1-0_20102838_A1.csv)
 .
 
 The script used to generate the manifest can be found in 
-`r system.files("scripts", "manifest.R", package("IlluminaHumanMethylationMSAmanifest"))`.
+`r system.file("scripts", "manifest.R", package = "IlluminaHumanMethylationMSAmanifest")`.
 
 Curently `minfi` will not automatically identify the array correctly,
 so this must be set by hand. As an example:
