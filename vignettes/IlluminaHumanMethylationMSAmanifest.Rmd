@@ -28,7 +28,7 @@ site](https://support.illumina.com/content/dam/illumina-support/documents/downlo
 .
 
 The script used to generate the manifest can be found in 
-`r system.files("scripts", "manifest.R", package("IlluminaHumanMethylationMSAmanifest")`.
+`r system.files("scripts", "manifest.R", package("IlluminaHumanMethylationMSAmanifest"))`.
 
 Curently `minfi` will not automatically identify the array correctly,
 so this must be set by hand. As an example:
