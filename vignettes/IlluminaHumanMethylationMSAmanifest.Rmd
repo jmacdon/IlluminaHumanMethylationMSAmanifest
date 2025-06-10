@@ -4,7 +4,7 @@ author: "James W. MacDonald <jmacdon@uw.edu>"
 date: '`r Sys.Date()`'
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Use of IlluminaHumanMethylationEPICv2manifest}
+  %\VignetteIndexEntry{Use of IlluminaHumanMethylationMSAmanifest}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -24,7 +24,7 @@ knitr::opts_chunk$set(
 
 This package provides the manifest for the Illumina Human Methylation
 MSA array, based on the [csv available on their support
-site](https://support.illumina.com/content/dam/illumina-support/documents/downloads/productfile/infiniummethylationscreening/MSA-48v1-0_20102838_A1.csv)
+site](https://support.illumina.com/content/dam/illumina-support/documents/downloads/productfiles/infiniummethylationscreening/MSA-48v1-0_20102838_A1.csv)
 .
 
 The script used to generate the manifest can be found in 
@@ -37,7 +37,7 @@ so this must be set by hand. As an example:
 
 RGset <- read.metharray.exp(...)
 annotation(RGset) <- list(array = "IlluminaHumanMethylationMSA",
-                          annotation = "20a1.hg38")
+                          annotation = "10a1.hg19")
                          
 
 ```

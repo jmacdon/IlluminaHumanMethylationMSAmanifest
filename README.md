@@ -23,6 +23,6 @@ MSA_example = read.metharray.exp(...)
 
 #Annotation is assigned by hand presently
 annotation(MSA_example) <- c(array = "IlluminaHumanMethylationMSA",
-	                     annotation = "10a1.hg38")
+	                     annotation = "ilm10a1.hg38")
 
 ```
