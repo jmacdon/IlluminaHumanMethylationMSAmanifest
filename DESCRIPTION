@@ -1,7 +1,7 @@
 Package: IlluminaHumanMethylationMSAmanifest
 Type: Package
 Title: Package for MSA Infinium array compatibility with minfi
-Version: 0.2.0
+Version: 0.1.1
 Author: c(person("Ev", "Chekalin", role = c("aut", "cre"),
                      email = "echekalin@illumina.com"),
               person("Bre",'Barnes', role = "aut",email='bbarnes@illumina.com'),
